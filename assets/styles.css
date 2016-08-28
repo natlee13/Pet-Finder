@@ -1,0 +1,732 @@
+body{
+	font-family: 'Arimo', sans-serif;
+
+}
+
+.clearfix{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/*..................................................header.........................................................*/
+
+.header{
+	width: 100%;
+	height: 100px;
+	background-color: #000000;
+	color: #ffffff;
+	padding-left: 3%;
+	padding-right:3%;
+	box-sizing: border-box;
+}
+
+.logo{
+	width: 100px;
+	height: 100px;
+	float:left;
+
+}
+
+.leftNav{
+	float:left;
+	margin-top: 35px;
+
+}
+
+.rightNav{
+	float: right;
+	margin-top: 35px;
+	margin-right: 0px;
+}
+
+.rightNav li, .leftNav li{
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+	position: relative;
+} 
+
+.rightNav li a, .leftNav li a{
+	text-decoration: none;
+	color: #ffffff;
+	padding: 10px;
+	font-size: 14px;
+}
+
+.rightNav li a:hover, .leftNav li a:hover{
+	
+	color: grey;
+}
+
+/*..............................................................homepage.................................................................*/
+
+.headerPhoto{
+	width: 100%;
+	height: 500px;
+	background-image: url(images/mananddog.jpg);
+	background-position: 70% 30%;
+	background-repeat: none;
+}
+
+.titleBox{
+	position: relative;
+	top: 75px;
+	left: 100px;
+	width: 620px;
+	z-index: 50;
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 5px;
+	padding: 40px;
+	font-size: 16px;
+}
+
+.titleBox h1{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 60px;
+	font-family: 'Didact Gothic', sans-serif;
+	font-weight: normal;
+	
+}
+
+.titleBox h3{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	font-size: 30px;
+	font-family: 'Didact Gothic', sans-serif;
+	font-weight: normal;
+}
+
+/*..................................................log in / signup buttons......................................
+*/
+.login, .signup{
+	display:inline-block;
+	text-decoration: none;
+	box-sizing: border-box;
+	width: 100px;
+	height: 30px;
+	padding: 6px 5px 5px 5px;
+	text-align: center;
+	border-radius: 5px;
+	color:white;
+	margin-top: 15px;
+}
+
+.login{
+	background-color: #006db2;
+}
+
+.login:hover{
+	background-color: grey;
+	color: black;
+	text-decoration: none;
+}
+
+.signup{
+	background-color: #ff9500;
+}
+
+.signup:hover{
+	background-color: grey;
+	color: black;
+	text-decoration: none;
+}
+.container{
+	width: 960px;
+	margin: 0 auto 0 auto;
+}
+
+/*..............................................................homepage about section........................................*/
+
+.about{
+	float:left;
+	width: 30%;
+	margin-left: 3%;
+	margin-top: 50px;
+	box-sizing: border-box;
+	padding: 30px;
+	line-height: 1.5em;
+	margin-bottom: 50px;
+
+}
+
+.about h2{
+	text-align: left;
+	margin-top: 0px;
+	font-family: 'Didact Gothic', sans-serif;
+	font-size: 28px;
+}
+
+
+/*......................................................footer.........................................................*/
+
+.footer{
+	width: 100%;
+	height: 50px;
+	background-color: #000000;
+	color: #ffffff;
+	text-align: right;
+	padding-top: 15px;
+	box-sizing: border-box;
+}
+
+.footer p{
+	margin-top: 0px;
+	font-size: 14px;
+}
+
+.lhs-footer{
+	float: left;
+	margin-left: 50px;
+}
+
+.rhs-footer{
+	margin-right: 50px;
+}
+
+/*............................................................top banner.............................................................*/
+
+.banner{
+	width: 100%;
+	height: 200px;
+	background-color: #ffffff;
+	margin-top: 0px;
+	text-align: center;
+	border-bottom: 1px grey solid;
+}
+
+.banner h1{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 50px;
+	font-family: 'Didact Gothic', sans-serif;
+	font-weight: normal;
+	font-size: 40px;
+
+}
+
+.banner p{
+	padding-top: 0px;
+	font-size: 20px;
+}
+
+.form-banner{
+	width: 100%;
+	height: 200px;
+	background-color: #ffffff;
+	margin-top: 0px;
+	text-align: center;
+	border-bottom: 1px grey solid;
+}
+
+.form-banner h1{
+	margin-top: 0px;
+	padding-top: 50px;
+	margin-bottom: 0px;
+	font-family: 'Didact Gothic', sans-serif;
+	font-weight: normal;
+	font-size: 40px;
+}
+
+/*.........................................................mini-listings..........................................................*/
+
+.listing{
+	width: 275px;
+	height: 380px;
+	float: left;
+	margin-top: 25px;
+	border: 1px lightGrey solid;
+	margin-bottom: 25px;
+	line-height: 1.8em;
+	padding-bottom: 20px;
+	font-size: 15px;
+
+
+}
+.listing-info{
+	box-sizing: border-box;	
+	padding: 20px;
+	height: 160px;
+	line-height: 1.7em;
+}
+
+.listing span{
+	display: block;
+	float: left;
+	width: 90px;
+	font-weight: bold;
+}
+
+.listing img{
+	width: 275px;
+	height: 180px;
+}
+
+.listing:nth-Child(1){
+	margin-top: 50px;
+}
+
+.listing:nth-Child(2){
+	margin-top: 50px;
+}
+
+.listing:nth-Child(3){
+	margin-top: 50px;
+}
+
+.listing:nth-Child(3n+1){
+	margin-right: 50px;
+}
+
+.listing:nth-Child(3n+3){
+	margin-left: 50px;
+}
+
+.listing:nth-last-Child(1){
+	margin-bottom: 55px;
+}
+
+.listing h3{
+	font-size: 20px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+.listing p{
+	margin: 0;
+}
+
+.listing h4{
+	margin:0px;
+}
+.listing a{
+	display: block;
+	width: 100px;
+	height: 35px;
+	background-color:  #006db2;
+	text-decoration: none;
+	text-align: center;
+	margin-top: 0px;
+	color: white;
+	border-radius: 5px;
+	padding-top: 5px;
+	box-sizing: border-box;
+	margin-left: 90px;
+}
+
+.listing a:hover{
+	background-color: grey;
+	color:black;	
+}
+
+/*...........................................................dropdown nav.......................................................*/
+
+td{
+	padding: 5px;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 100;
+    background-color: #4d4d3c;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+	border-radius:5px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*............................. forms ..............................*/
+
+
+.form-container{
+	width: 600px;
+	margin: 50px auto 0 auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+.pure-form-aligned{
+	margin-top: 50px;
+	margin-left: 200px;
+	margin-bottom: 50px;
+	background-color: white;
+	width: 500px;
+	padding: 35px;
+}
+
+.login-form{
+	margin-bottom: 250px;
+}
+
+.pure-control-group input, textarea{
+	width: 300px;
+}
+
+.pure-control-group textarea{
+	height: 100px;
+}
+
+.pure-button{
+	margin-left: 5px;
+}
+
+/*...............................................success stories page................................................*/
+
+.success-story{
+	width: 960px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.success-story img{
+	width: 330px;
+	height: 300px;
+	float: left;
+}
+
+.success-story h3{
+	margin-top: 0px;
+	font-size: 22px;
+
+}
+
+.success-story .info{
+	width: 600px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 0;
+	padding: 0px 20px 20px 20px;
+	box-sizing: border-box;
+}
+
+.success-story .info span{
+	width:130px;
+	display: block;
+	float: left;
+	font-weight: bold;
+}
+
+.success-story .info p{
+	line-height: 1.4em;
+	font-size: 15px;
+}
+
+.success-story:after{
+	display: block;
+	content:"";
+	clear:both;
+}
+/*
+.........................registration success page and edit-details buttons..................*/
+
+.listing-button, .edit-details-button{
+	display:inline-block;
+	text-decoration: none;
+	box-sizing: border-box;
+	width: 140px;
+	height: 38px;
+	padding: 11px 5px 5px 5px;
+	text-align: center;
+	border-radius: 5px;
+	color:white;
+	margin-top: 15px;
+	background-color: #006db2;
+
+}
+
+.listing-button:hover{
+	background-color: grey;
+	color: #000000;
+	text-decoration: none;
+}
+
+
+.edit-details-button:hover{
+	background-color: grey;
+	color: #000000;
+	text-decoration: none;
+}
+
+/*
+...................user details page...............................*/
+
+.container .user-details{
+	width: 450px;
+	margin: 50px auto 245px auto;
+	line-height: 3em;
+	list-style-type: none;
+}
+
+.user-details span{
+	width: 150px;
+	display: block;
+	float: left;
+	font-weight: bold;
+}
+
+/*....................................user_view_listings page......................................*/
+
+.edit-button{
+	display: inline-block;
+	border: 1px red solid;
+
+}
+
+.user-listing{
+	width: 275px;
+	height: 680px;
+	float: left;
+	margin-top: 25px;
+	border: 1px lightGrey solid;
+	margin-bottom: 25px;
+	line-height: 1.8em;
+	padding-bottom: 20px;
+	font-size: 15px;
+}
+
+.user-listing .listing-info{
+	box-sizing: border-box;	
+	padding: 20px;
+	height: 450px;
+}
+
+.user-listing img{
+	width: 275px;
+	height: 180px;
+}
+
+.user-listing:nth-Child(3n+1){
+	margin-right: 50px;
+}
+
+.user-listing:nth-Child(3n+3){
+	margin-left: 50px;
+}
+
+.user-listing h3{
+	margin-top: 5px;
+}
+
+.user-listing p{
+	border: 1px white solid;
+	margin: 0;
+	display:block;
+}
+
+.user-listing span{
+	display: block;
+	float: left;
+	width: 100px;
+	font-weight: bold;
+	border: 1px white solid;
+}
+
+.user-listing h4{
+	margin:0px;
+}
+
+.edit, .delete{
+	display: inline-block;
+	width: 80px;
+	height: 35px;
+	text-decoration: none;
+	text-align: center;
+	margin-top: 10px;
+	margin-right: 0px;
+	color: white;
+	border-radius: 5px;
+	padding-top: 5px;
+	box-sizing: border-box;
+	margin-left: 37px;
+}
+
+.edit{
+	background-color: #006db2;
+}
+
+.delete{
+	background-color: #ff9500;
+}
+
+.edit:hover{
+	background-color: grey;
+	color: black;
+}
+
+.delete:hover{
+	background-color: grey;
+	color: black;
+}
+
+/*.......................................................full listings.....................................................................
+*/
+
+.big-image{
+	width: 550px;
+	height: 360px;
+	margin: 50px auto 20px auto;
+
+}
+
+.full-listing{
+	width: 800px;
+	margin: 0 auto 50px auto;
+	padding: 20px 100px 20px 100px;
+	font-size: 16px;
+}
+
+.full-listing h3{
+	font-size: 38px;
+	margin-bottom: 30px;
+	text-align: center;
+	margin-top: 0px;
+	font-family: 'Didact Gothic', sans-serif;
+	font-weight: normal;
+}
+
+.full-listing span{
+	font-weight: bold;
+	display: block;
+	width: 100px;
+	float: left;
+}
+
+.full-listing p{
+	line-height: 1.5em;
+}
+
+/*...................................form error................................*/
+
+.error{
+	color: red;
+	margin-left: 180px;
+}
+
+/*....................................admin homepage......................................*/
+
+.admin-button{
+	display:inline-block;
+	text-decoration: none;
+	box-sizing: border-box;
+	width: 160px;
+	height: 38px;
+	padding: 11px 5px 5px 5px;
+	text-align: center;
+	border-radius: 5px;
+	color:white;
+	margin-top: 15px;
+	margin-right: 20px;
+	background-color: #006db2;
+
+}
+
+.admin-button:hover{
+	background-color: grey;
+	color: #000000;
+	text-decoration: none;
+}
+
+.admin-edit, .admin-delete{
+	display: inline-block;
+	width: 80px;
+	height: 35px;
+	text-decoration: none;
+	text-align: center;
+	margin-top: 10px;
+	margin-right: 20px;
+	color: white;
+	border-radius: 5px;
+	padding-top: 9px;
+	box-sizing: border-box;
+	margin-left: 0px;
+}
+
+.admin-edit{
+	background-color: #006db2;
+}
+.admin-delete{
+	background-color: #ff9500;
+
+}
+
+.listing .admin-edit-listing, .listing .admin-delete-listing{
+	display: inline-block;
+	width: 80px;
+	height: 35px;
+	text-decoration: none;
+	text-align: center;
+	margin-top: 0px;
+	margin-right: 20px;
+	color: white;
+	border-radius: 5px;
+	padding-top: 5px;
+	box-sizing: border-box;
+	margin-left: 0px;
+}
+
+.listing .admin-edit-listing{
+	background-color: #006db2;
+	margin-left: 48px;
+}
+
+.listing .admin-delete-listing{
+	background-color: #ff9500;
+}
+
+/*.....................................search box...........................................*/
+
+.search-box{
+	margin-top: 18px;
+	margin-bottom: 10px;
+}
+
+.search-button{
+	border-radius: 8px;
+	background-color: #4d4d3c ;
+	color: white;
+	padding:5px;
+	border-style: none;
+}
+
+.search-button:hover{
+	background-color: grey;
+}
+
+/*..........................login error message..................................................*/
+
+.login-message{
+	width: 500px;
+	margin: 50px auto 0px auto;
+	text-align: center;
+	color: red;
+}
